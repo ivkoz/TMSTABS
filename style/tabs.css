@@ -1,0 +1,59 @@
+.tabs{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+}
+
+.row-buttons{
+    display: flex;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+}
+
+.first-button{
+    border-radius: 5px;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+}
+
+.left-side{
+    display: flex;
+    border: 1px solid #C6CBCD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tab h1{
+    text-align: left        ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab p{
+    font-family: Raleway;
+    text-align: left;
+}
+
+.tab a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC7979;
+    width: 270px;
+    height: 58px;
+}

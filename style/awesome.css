@@ -1,0 +1,45 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__text, .header__subtext{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__text{
+    font-size: 36px;
+}
+
+.header__line{
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.header__subtext{
+    font-size: 18px;
+    color: #86878B;
+}
+
+.box{
+    display: inline-block;
+    width: 370px;
+}
+
+.box:not(:last-child):after{
+    margin-right: 30px;
+}
+
+.box__text, .box__paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.box__paragraph{
+    text-align: center;
+    font-size: 18px;
+}
