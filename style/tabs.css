@@ -5,14 +5,23 @@
 
 .row-buttons{
     display: flex;
+    width: 100%;
 }
 
-.button{
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 200px;
     height: 40px;
+}
+
+.button:not(:first-child){
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.button:last-child{
+    border-bottom: 1px solid #C6CBCD;
 }
 
 .first-button{
@@ -22,9 +31,16 @@
     border-left: 1px solid #C6CBCD;
 }
 
+.last-button{
+    border-bottom: 1px solid #C6CBCD;
+    width: 100%; 
+}
+
 .left-side{
     display: flex;
-    border: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
