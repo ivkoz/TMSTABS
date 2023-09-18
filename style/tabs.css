@@ -12,8 +12,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 300px;
     height: 40px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .button:not(:first-child){
@@ -53,7 +54,7 @@
 }
 
 .tab h1{
-    text-align: left        ;
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -63,6 +64,7 @@
 }
 
 .tab a{
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     text-decoration: none;
     color: #fff;

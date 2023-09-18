@@ -1,0 +1,67 @@
+.section-price{
+    padding-top: 100px;
+    background-color: #F5F5F5;
+}
+.blocks-price{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.block-item{
+    width: 370px;
+}
+
+.block-header, .block-price, .block-undertext{
+    background-color: #333;
+    color: #fff;
+}
+
+.block-header, .block-price{
+    font-weight: 700;
+}
+
+.block-header{
+    font-size: 24px;
+}
+
+.block-header, .block-undertext{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-price{
+    border-bottom: #fff 2px solid;
+    border-top: #fff 2px solid;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.block-undertext{
+    color: #FFFFFF80;
+}
+
+.block-small-text{
+    background-color: #fff;
+    color: #86878B;
+    border-bottom: 1px solid #F5F5F5;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-second{
+    position: relative;
+    bottom: 20px;
+    -webkit-box-shadow: 0px 37px 23px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 37px 23px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 37px 23px 0px rgba(34, 60, 80, 0.2);
+}
