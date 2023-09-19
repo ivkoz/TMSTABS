@@ -15,6 +15,7 @@
     width: 300px;
     height: 40px;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .button:not(:first-child){
@@ -26,6 +27,7 @@
 }
 
 .first-button{
+    width: 300px;
     border-radius: 5px;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -34,7 +36,6 @@
 
 .last-button{
     border-bottom: 1px solid #C6CBCD;
-    width: 100%; 
 }
 
 .left-side{
