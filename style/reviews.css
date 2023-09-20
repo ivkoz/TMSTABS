@@ -1,0 +1,76 @@
+.blocks-reviews{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.review-text{
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-img{
+    background: url('../img/face_1.png');
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.second-img{
+    background: url('../img/face_2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.three-img{
+    background: url('../img/face_3.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.review-profile{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.review-info{
+    text-align: left;
+}
+
+.review-info span{
+    font-size: 18px;
+    font-family: Raleway;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.block-review{
+    position: relative;
+}
+
+.polygon{
+    background: url('../img/Polygon1.png');
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+

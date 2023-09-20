@@ -13,6 +13,7 @@
 
 .block-item{
     width: 370px;
+    margin-bottom: 50px;
 }
 
 .block-item_header, .block-price, .block-undertext{
