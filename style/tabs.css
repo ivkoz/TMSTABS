@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 200px;
     height: 40px;
     font-family: 'Open Sans', sans-serif;
 
@@ -27,7 +27,7 @@
 }
 
 .first-button{
-    width: 300px;
+    width: 200px;
     border-radius: 5px;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -76,3 +76,4 @@
     width: 270px;
     height: 58px;
 }
+
