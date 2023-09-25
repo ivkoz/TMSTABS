@@ -36,6 +36,12 @@ header{
     background-size: cover;
     color: #fff;
     z-index: 1;
+    height: 100vh;
+}
+
+.header-main .container{
+    display: flex;
+    align-items: center;
 }
 
 .header-left{
@@ -84,4 +90,34 @@ header{
     width: 270px;
     height: 58px;
     font-size: 18px;
+    margin-top: 42px;
+}
+
+.inputs{
+    background-color: #fff;
+    width: 470px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-head{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.input-head span{
+    color:#EC7979;
+}
+
+.inputs-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-main input{
+    margin-bottom: 33px;
 }
