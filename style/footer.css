@@ -1,0 +1,26 @@
+footer{
+    background-color: #000;
+    height: 170px;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+
+.footer-up{
+    display: flex;
+    color: #CCCCCC;
+    margin-bottom: 30px;
+}
+
+.footer-under span{
+    color: #fff;
+    opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
