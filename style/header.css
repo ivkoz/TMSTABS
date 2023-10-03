@@ -118,7 +118,7 @@ header{
     align-items: center;
 }
 
-.inputs-main input{
+.header-input{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -128,7 +128,7 @@ header{
     margin-bottom: 33px;
 }
 
-.inputs button{
+.header-button{
     color: #fff;
     background-color: #EC7979;
     padding-top: 15px;
@@ -154,7 +154,7 @@ header{
     text-align: left;
 }
 
-.social-left h4{
+.header-social__headtext{
     color: #333;
 }
 
@@ -163,7 +163,7 @@ header{
     margin-bottom: 20px;
 }
 
-.social-right img{
+.social__img{
     color: #CCCCCC;
 }
 
