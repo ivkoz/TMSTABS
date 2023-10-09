@@ -32,6 +32,20 @@
     border-bottom: 1px solid #BDBDBD;
 }
 
+.contacts-button{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC7979;
+    width: 270px;
+    height: 58px;
+    border: 0;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
 @media (max-width:736px){
     .contacts-items{
         flex-direction: column;
@@ -52,5 +66,12 @@
 
     .block-item{
         width: 280px;
+        margin-bottom: 0px;
     }
+
+    .block-second{
+        position:static;
+    }
+
+
 }

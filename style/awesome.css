@@ -58,4 +58,19 @@ body{
     .box{
         width: 280px;
     }
+
+    .header__text{
+        font-size: 18px;
+    }
+    .header__subtext{
+        font-size: 13px;
+    }
+
+    .box__text{
+        font-size: 18px;
+    }
+
+    .box__paragraph{
+        font-size: 14px;
+    }
 }

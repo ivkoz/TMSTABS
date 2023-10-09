@@ -93,4 +93,21 @@
     .first-button, .button{
         width: 93px;
     }
+
+    .tab{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tab a{
+        width: 240px;
+    }
+
+    .tab h1{
+        font-size: 18px;
+    }
+
+    .tab p{
+        font-size: 13px;
+    }
 }
