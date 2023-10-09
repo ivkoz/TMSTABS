@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     text-align: center;
 }
@@ -52,4 +52,10 @@ body{
 .box__paragraph{
     text-align: center;
     font-size: 18px;
+}
+
+@media (max-width:736px){
+    .box{
+        width: 280px;
+    }
 }

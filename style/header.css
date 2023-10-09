@@ -3,6 +3,11 @@ header{
     font-family: 'Open Sans', sans-serif;
 }
 
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -175,4 +180,110 @@ header{
 
 input, textarea {
     outline:none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media (max-width:843px) {
+    .inputs{
+        width: 430px;
+    }
+}
+
+@media (max-width:736px) {
+    .header-main .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .under-text{
+        text-align: center;
+    }
+
+    .header-left h1{
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .header-left{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-left .button_download{
+        margin-bottom: 50px;
+    }
+
+    .header-main{
+        height: auto;
+    }
+
+    .header-main .container{
+        padding-bottom: 50px;
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .social__items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-left{
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .social-right img{
+        width: 26px;
+        height: 26px;
+    }
+
+    .inputs{
+        width: 288px;
+    }
+
+    .inputs-main input{
+        width: 240px;
+    }
+
+    .tabs{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tabs .left-side{
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+    .tabs .left-side .tab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tabs .left-side .tab h1{
+        text-align: center;
+    }
+
+    .tabs .left-side .tab p{
+        text-align: center;
+    }
+    
 }

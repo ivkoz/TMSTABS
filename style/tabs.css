@@ -77,3 +77,20 @@
     height: 58px;
 }
 
+@media (max-width:843px) {
+    .img-statue{
+        display: none;
+    }
+    .row-buttons{
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .last-button{
+        display: none;
+    }
+
+    .first-button, .button{
+        width: 93px;
+    }
+}

@@ -1,12 +1,17 @@
 .contacts-items{
     display: flex;
-    justify-content: space-between;
     margin-top: 50px;
 }
 
 .contact-left{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    width: 100%;
+}
+
+.contact-right{
+    width: 100%;
 }
 
 .contact-left input{
@@ -17,7 +22,6 @@
     border-bottom: 1px solid #BDBDBD;
     padding-bottom: 16px;
     color: #BDBDBD;
-    width: 570px;
 }
 
 .contact-right textarea{
@@ -25,6 +29,28 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 570px;
     border-bottom: 1px solid #BDBDBD;
+}
+
+@media (max-width:736px){
+    .contacts-items{
+        flex-direction: column;
+    }
+
+    .footer-up img{
+        width: 26px;
+        height: 26px;
+    }
+
+    .contact-right{
+        width: 280px;
+    }
+
+    .contact-right textarea{
+        width: 280px;
+    }
+
+    .block-item{
+        width: 280px;
+    }
 }

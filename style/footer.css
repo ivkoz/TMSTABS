@@ -24,3 +24,10 @@ footer{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 30px;
 }
+
+@media (max-width:736px){
+    .footer-up img{
+        width: 26px;
+        height: 26px;
+    }
+}
