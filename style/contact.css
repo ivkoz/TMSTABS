@@ -46,7 +46,7 @@
     margin-top: 50px;
 }
 
-@media (max-width:736px){
+@media (max-width:775px){
     .contacts-items{
         flex-direction: column;
     }
@@ -57,11 +57,11 @@
     }
 
     .contact-right{
-        width: 280px;
+        width: 100%;
     }
 
     .contact-right textarea{
-        width: 280px;
+        width: 100%;
     }
 
     .block-item{

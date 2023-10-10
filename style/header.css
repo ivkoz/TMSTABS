@@ -192,7 +192,7 @@ input, textarea {
     }
 }
 
-@media (max-width:736px) {
+@media (max-width:775px) {
     .header-main .container{
         flex-direction: column;
         align-items: center;

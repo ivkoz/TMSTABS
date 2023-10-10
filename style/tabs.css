@@ -77,7 +77,7 @@
     height: 58px;
 }
 
-@media (max-width:843px) {
+@media (max-width:775px) {
     .img-statue{
         display: none;
     }

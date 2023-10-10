@@ -97,7 +97,7 @@ h4{
     }
 }
 
-@media (max-width:736px) {
+@media (max-width:775px) {
     .blocks-reviews{
         display: flex;
         flex-direction: column;

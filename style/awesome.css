@@ -54,7 +54,7 @@ body{
     font-size: 18px;
 }
 
-@media (max-width:736px){
+@media (max-width:775px){
     .box{
         width: 280px;
     }
