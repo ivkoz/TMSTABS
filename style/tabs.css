@@ -77,6 +77,29 @@
     height: 58px;
 }
 
+@media (max-width:900px){
+    .img-statue{
+        display: none;
+    }
+    .tabs .left-side{
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+    .tabs .left-side .tab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tabs .left-side .tab h1{
+        text-align: center;
+    }
+
+    .tabs .left-side .tab p{
+        text-align: center;
+    }
+    
+}
+
 @media (max-width:775px) {
     .img-statue{
         display: none;
